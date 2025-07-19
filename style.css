@@ -1,0 +1,220 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+}
+
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+button {
+  border: none;
+  color: white;
+  background-color: orangered;
+  border-radius: 5px;
+  margin-top: -15px;
+  width: 120px;
+  height: 50px;
+  
+}
+h1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+p {
+  color: black;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.home {
+  color: orangered;
+}
+.box {
+    margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 200px;
+    
+}
+.main > img {
+  width: 626px;
+  height: 723px;
+  top: 962px;
+  left: 92px;
+}
+.box2 > button {
+    border-radius:  30px;: ;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+  font-family: Rubik;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 176;
+height: 58;
+top: 1515px;
+left: 855px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 30px;
+
+}
+span{
+    color: orangered;
+}
+.box3{
+    margin: 0 auto;
+}
+.box3> img{
+    width: 361px;
+height: 299px;
+top: 1809px;
+left: 156px;
+border-top-left-radius: 53px;
+border-top-right-radius: 5px;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.box4>button{
+    width: 80px;
+    height: 40px;
+
+}
+.box4{
+    gap: 10px;
+    display: flex;
+}
+.main5{
+    padding: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+footer{
+    background-color: #FF7A50;
+    border-radius:20px ;
+    width: 1170;
+height: 312;
+}
+.footer> h1{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.footer.text{
+    width: 838.5px;
+height: 78px;
+top: 3156.45px;
+left: 303.75px;
+border-width: 1px;
+display: flex;
+
+}
+.main2>h1{
+    
+    font-family: Rubik;
+font-weight: 500px;
+font-size: 36px;
+line-height: 30px;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+.icon.btn{
+    width: 20px;
+    height: 20px;
+}
+.text-1{
+    text-align: center;
+    color: aliceblue;
+font-size: 59px;
+font-family: Rubik;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+
+
+
+}
+input{
+   outline: none;
+
+border: none;
+}
+input>::placeholder{
+    width: 207px;
+    height: 29px;
+}
+.footer_text{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+  background: white;
+    padding: 0px;
+    width: 838px;
+    height: 78px;
+margin:0 auto;
+border-radius: 70px;
+}
+a:hover{
+  color: red;
+}
+button:hover{
+  border: 4px solid #FF7A50;
+  background-color: #f29a7f;
+}
